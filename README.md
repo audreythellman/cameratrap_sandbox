@@ -1,6 +1,7 @@
 # Cameratrap Sandbox
 
 PROJECT PROGRESS 
+
 1. Retain already labeled files 
 	1.1. In already labeled and sorted files, there are duplicates and missing dates, why?
 
