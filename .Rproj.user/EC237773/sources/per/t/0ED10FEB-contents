@@ -1,0 +1,19 @@
+library(tidyverse)
+library(lubridate)
+library(plotly)
+file_df <- read_csv("file_df.csv")
+
+file_df$ws <- substr(file_df$new_name, 7, 8) #create watershed column
+file_df$date <- as.Date(substr(file_df$new_name, 10, 17), format = "%Y%m%d") #create date column 
+file_df$value <- as.numeric(substr(file_df$new_name, 8, 8))
+
+
+p2019 <- ggplot(data = file_df %>% filter(year(date) %in% 2019)) + geom_point(aes(x = date, y = value)) + scale_y_continuous(n.breaks = 9, limits = c(1,9))
+
+p2020 <- ggplot(data = file_df %>% filter(year(date) %in% 2020)) + geom_point(aes(x = date, y = value)) + scale_y_continuous(n.breaks = 9, limits = c(1,9))
+
+p2021 <- ggplot(data = file_df %>% filter(year(date) %in% 2021)) + geom_point(aes(x = date, y = value)) + scale_y_continuous(n.breaks = 9, limits = c(1,9))
+
+ggplotly(p2019)
+ggplotly(p2020)
+ggplotly(p2021)
