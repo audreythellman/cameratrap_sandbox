@@ -7,3 +7,4 @@ PROJECT PROGRESS
    2.3. should they be resorted by WS/ year, are there duplicate labels? 
 3. Other subfolders...
    3.1. are they labeled already? 
+hbwtr_w3_20211025_115909.JPG = problem image 
