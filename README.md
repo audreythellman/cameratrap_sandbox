@@ -19,13 +19,13 @@ hbwtr_w3_20211025_115909.JPG = problem image
 
 _Creating ROIs_
 
-1. Fix ROI poly function 
+1. ~~Fix ROI poly function~~ (Audrey) 
 
-2. Create ROIs for all images to feed into machine learning model 
+2. Create ROIs for all images to feed into machine learning model
 
 _Running the ML model_
 
-0. Find all labeled image files (on Gdrive) 
+0. **Find all labeled image files (on Gdrive) (Audrey)**  
 
 1. Re-run the model based on past images
     - Does temperature appear in image metadata? Or should we still use scikit?
