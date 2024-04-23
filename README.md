@@ -23,9 +23,11 @@ _Creating ROIs_
 
 2. Create ROIs for all images to feed into machine learning model
 
-_Running the ML model_
+_Running the ML model_ 
 
-0. **Find all labeled image files (on Gdrive) (Audrey)**  
+0. ~~Find all input data (labeled pixel files)~~
 
-1. Re-run the model based on past images
+1. **Re-run image wrangling file** (Audrey) 
+
+2. Re-run the model based on past images
     - Does temperature appear in image metadata? Or should we still use scikit?
